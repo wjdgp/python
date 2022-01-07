@@ -1,4 +1,4 @@
-def sum():
-  return (10 + 20)
+def sum(math, eng):
+  return (math + eng)
 
-print("sum = ", sum()) # sum() 함수 호출
+print("sum = ", sum(30, 40)) # sum(30, 40) 함수 호출
